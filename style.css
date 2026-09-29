@@ -300,3 +300,7 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 .nav a .tile path { fill: var(--paper); }
 .nav a[aria-current="page"] .tile path { fill: #e9772c; }
 .nav a:hover .tile path { fill: #e9772c; }
+
+/* Institution logos */
+.inst .plate { display: grid; place-items: center; height: 96px; background: #ffffff; border: 1px solid var(--rule); padding: 12px; margin-bottom: 10px; }
+.inst .plate img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
