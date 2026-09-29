@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Research summary, methods and publications of Marios Saleptsis: decision-focused forecasting for battery scheduling in microgrids.">
+<title>Research · Marios Saleptsis</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html">Marios Saleptsis<small>Electrical Engineering · Politecnico di Milano</small></a>
+    <nav class="nav" aria-label="Site">
+      <a href="index.html">Home</a>
+      <a href="research.html" aria-current="page">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="teaching.html">Teaching</a>
+      <a href="cv.html">CV</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+      <div class="hero-curve" aria-hidden="true">
+        <svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice">
+          <path class="grid" d="M0 330H1200M0 250H1200M0 170H1200M0 90H1200"/>
+          <path d="M0 400 C150 400 220 395 300 360 S470 130 600 118 S900 360 1000 392 S1120 400 1200 400"/>
+          <path class="soc" d="M0 350 L260 350 C330 350 380 300 430 240 S560 130 640 120 L760 120 C820 120 860 200 900 260 S980 340 1040 350 L1200 350"/>
+        </svg>
+      </div>
+    <div class="wrap">
+      <p class="eyebrow">Research</p>
+      <h1>Forecasts judged by the decisions they cause</h1>
+      <p class="lede">A microgrid energy management system forecasts load, PV and prices, then solves a dispatch problem. My work closes that loop: the forecaster is trained on the cost of the schedule it produces, and the theory says when that is guaranteed to help.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="sec-head">
+        <p class="eyebrow">Summary</p>
+        <h2>The thesis in one page</h2>
+      </div>
+      <div class="prose">
+        <p>Battery scheduling in a microgrid depends on forecasts of PV generation, load and electricity prices. The standard practice trains those forecasters for statistical accuracy and hands the result to an optimizer. My doctoral work replaces that separation with cost-aware and decision-focused training, where the forecaster is shaped by the operating cost of the dispatch it induces.</p>
+        <p>The contributions run from practical to theoretical. Cost-aware loss functions and forecast selectors make an off-the-shelf PV forecaster price-sensitive without touching the optimizer. Decision-focused learning trains load and PV forecasters end to end through the BESS dispatch problem, and shows that forecasters with higher RMSE can produce lower cost, with reductions of <span class="num">3.78%</span> in normal operation and <span class="num">30.60%</span> when grid exchange is constrained. For online training, I prove the first regret guarantees through a dispatch optimizer whose state of charge carries every past mistake forward. When several forecasters are trained separately, a potential-game formulation with a Stackelberg-Nash scheme coordinates them. Risk-averse training applies Conditional Value-at-Risk to the regret distribution so the tail of bad scheduling days shapes the model. Finally, a shadow-price diagnostic gives an exact, certified attribution of cost to individual forecast errors, explained by proximity to binding constraints, timing against the tariff, and direction of the error.</p>
+        <p>All of it is validated on the MG²Lab microgrid at Politecnico di Milano, with up to <span class="num">100 kW</span> of PV, a <span class="num">210 kWh</span> hybrid storage system, a <span class="num">25 kW</span> micro-CHP unit, EV chargers and programmable loads, and within the Horizon Europe projects MOST, MESSI and NEST.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Institutions</p>
+        <h2>Where the work was done</h2>
+      </div>
+      <ul class="inst">
+        <li><span class="name">Politecnico di Milano</span><span class="role">Doctoral research, teaching, MG²Lab</span><span class="where">Milan, Italy</span></li>
+        <li><span class="name">Polytechnique Montréal</span><span class="role">Visiting researcher</span><span class="where">Montréal, Canada</span></li>
+        <li><span class="name">Universidad Politécnica de Madrid</span><span class="role">Erasmus semester, IoT and renewable energy laboratories</span><span class="where">Madrid, Spain</span></li>
+        <li><span class="name">University of Western Macedonia</span><span class="role">Diploma in Electrical and Computer Engineering</span><span class="where">Kozani, Greece</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Expertise</p>
+        <h2>Methods</h2>
+      </div>
+      <div class="grid-3">
+        <div>
+          <h3>Decision-focused learning</h3>
+          <ul>
+            <li>End-to-end training through LP and MILP dispatch</li>
+            <li>Online learning and regret analysis</li>
+            <li>Game-theoretic multi-forecaster coordination</li>
+            <li>Risk-averse (CVaR) training objectives</li>
+            <li>Zeroth-order methods for mixed-integer problems</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Forecasting</h3>
+          <ul>
+            <li>Cost-aware and asymmetric loss functions</li>
+            <li>Gradient boosting and neural networks</li>
+            <li>Probabilistic forecasting: NGBoost, conformal prediction, sparse GP</li>
+            <li>Forecast selection and combination</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Optimization and analysis</h3>
+          <ul>
+            <li>Battery and EV-charging scheduling</li>
+            <li>Stochastic and reserve-constrained dispatch</li>
+            <li>Duality, envelope theorem and multiparametric sensitivity</li>
+            <li>Shadow-price diagnostics</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="sec-head">
+        <p class="eyebrow">Domains</p>
+        <h2>Application areas</h2>
+      </div>
+      <div class="tags tags-lg">
+        <span class="tag">Microgrids</span>
+        <span class="tag">Battery energy storage</span>
+        <span class="tag">Photovoltaic generation</span>
+        <span class="tag">EV charging</span>
+        <span class="tag">Energy management systems</span>
+        <span class="tag">Electricity markets and tariffs</span>
+        <span class="tag">PV fleet monitoring</span>
+        <span class="tag">Hybrid storage</span>
+        <span class="tag">Laboratory validation</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Publications</p>
+        <h2>Under review and accepted</h2>
+        <p class="muted">Full record on <a href="https://scholar.google.com/citations?user=uJFeDVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a> and <a href="https://www.researchgate.net/profile/Marios-Saleptsis" target="_blank" rel="noopener">ResearchGate</a>.</p>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Decision-Focused Learning for Optimal BESS Scheduling Under Load and PV Uncertainty in Microgrids</div>
+          <div class="authors"><b>M. Saleptsis</b>, A. Lesage-Landry, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Energy, Elsevier</span><span class="status rev">Under review</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Bridging the Gap between Predictive Accuracy and Operational Optimality: A Cost-Aware PV Forecasting Framework</div>
+          <div class="authors"><b>M. Saleptsis</b>, R. Ramaschi, A. Fusco, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Applied Energy, special issue Microgrids 2027</span><span class="status rev">Under review</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Game-Theoretic Decision-Focused Learning for Microgrid Scheduling Under Multi-Source Uncertainty</div>
+          <div class="authors"><b>M. Saleptsis</b>, A. Lesage-Landry, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>IEEE Transactions on Smart Grid</span><span class="status rev">Under review</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">A Novel Hierarchical Stacked Framework for Short-Term Load Forecasting: An Extreme Learning Machine and Extreme Gradient Boosting Ensemble Method</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>IEEE Transactions on Industry Applications</span><span class="status rev">Under review</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">A Stacked Ensemble Approach for Probabilistic PV Forecasting: Combining Physical Hybrid Neural Networks with Natural Gradient Boosting</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>ELECTRIMACS 2026, Palermo, Italy, May 2026</span><span class="status pub">Accepted</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Towards a Peer-Based Probabilistic Framework for Photovoltaic Performance Monitoring with Aggregated Data</div>
+          <div class="authors">R. Ramaschi, <b>M. Saleptsis</b>, E. Ogliari, S. Leva</div>
+          <div class="venue"><span>ELECTRIMACS 2026, Palermo, Italy, May 2026</span><span class="status pub">Accepted</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Publications</p>
+        <h2>Published</h2>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">State of Health Resistance Estimation Based on a Feed Forward Neural Network</div>
+          <div class="authors">P. Eleftheriadis, <b>M. Saleptsis</b>, S. Leva</div>
+          <div class="venue"><span>Conference paper, July 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Data-Driven Timestep Analysis for State of Health Estimation Using BiLSTM Neural Networks</div>
+          <div class="authors">P. Eleftheriadis, <b>M. Saleptsis</b>, S. Leva</div>
+          <div class="venue"><span>Conference paper, July 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Extreme Gradient Boosting for Day-Ahead Photovoltaic Output Power Forecast Refinement</div>
+          <div class="authors"><b>M. Saleptsis</b>, R. Ramaschi, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Conference paper, June 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Gradient Boosting Algorithms for Day-Ahead Residential Load Forecasting of Individual Household</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Conference paper, June 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">Comparative Analysis of Wireless Protocols in Smart Home Energy Management Systems</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Conference paper, October 2024</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">Impact of PV and EV Forecasting in the Operation of a Microgrid</div>
+          <div class="authors"><b>M. Saleptsis</b>, G. Manzolini, A. Fusco, D. Gioffrè, S. Leva</div>
+          <div class="venue"><span>Forecasting, vol. 6, no. 3, 2024</span><span class="status pub">Journal</span></div>
+          <div class="links"><a href="https://doi.org/10.3390/forecast6030032" target="_blank" rel="noopener">doi:10.3390/forecast6030032</a></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">An Overview of Optimization Methods for Home Energy Management Systems</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Conference paper, June 2024</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Thesis</p>
+        <h2>Doctoral thesis</h2>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Cost-Aware and Decision-Focused Forecasting for Battery Energy Storage Scheduling in Microgrids</div>
+          <div class="authors"><b>M. Saleptsis</b> · Supervisors: S. Leva, M. Mussetta</div>
+          <div class="venue"><span>Politecnico di Milano, XXXIX cycle</span><span class="status">Defense expected November 2026</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>marios.saleptsis@polimi.it</li>
+        <li>Politecnico di Milano, Department of Energy</li>
+        <li>Via Lambruschini 4, 20156 Milano, Italy</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Links</h4>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?user=uJFeDVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Marios-Saleptsis" target="_blank" rel="noopener">ResearchGate</a></li>
+        <li><a href="#" id="footer-linkedin">LinkedIn</a></li>
+        <li><a href="cv.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Colophon</h4>
+      <ul>
+        <li>© 2026 Marios Saleptsis</li>
+        <li class="fine">Milan · MG²Lab · Politecnico di Milano</li>
+        <li class="fine">Last updated September 2026</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
