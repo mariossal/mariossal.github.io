@@ -280,12 +280,11 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 .inst .role { font-size: .92rem; color: var(--ink-2); }
 .inst .where { font-family: var(--mono); font-size: .7rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-top: 4px; }
 
-/* Hero logo beside the name */
-.title-row { display: flex; align-items: flex-start; gap: clamp(16px, 2.5vw, 28px); }
-.hero-logo { width: clamp(72px, 9vw, 112px); height: auto; flex: none; border-radius: 16px; margin-top: .12em; box-shadow: 0 10px 30px -14px rgba(0,0,0,.45); }
-@media (min-width: 1240px) { .title-row { margin-left: calc(-1 * (clamp(72px, 9vw, 112px) + clamp(16px, 2.5vw, 28px))); } }
-@media (max-width: 520px) { .title-row { flex-direction: column; gap: 14px; } }
-
+/* Masthead logo, left of the name */
+.brand { display: flex; align-items: center; gap: 14px; }
+.brand .logo { width: 52px; height: 52px; border-radius: 10px; flex: none; }
+.brand .brand-text { display: block; line-height: 1.15; }
+.masthead .wrap { padding-block: 10px; }
 /* Timeline strip: phone fallback list */
 .strip-list { display: none; list-style: none; margin: 0; padding: 0; }
 .strip-list li { display: grid; grid-template-columns: 3.5rem minmax(0, 1fr); gap: 12px; padding-block: 10px; border-top: 1px solid var(--rule); }
