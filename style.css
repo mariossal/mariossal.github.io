@@ -293,7 +293,10 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 @media (max-width: 700px) { .strip-list { display: grid; } }
 .strip { margin-top: 0; }
 
-/* Nav icons */
-.nav a { display: inline-flex; align-items: center; gap: 7px; }
-.nav a svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; opacity: .85; }
-.nav a[aria-current="page"] svg { stroke: var(--accent); opacity: 1; }
+/* Nav tiles, same family as the tab icon */
+.nav a { display: inline-flex; align-items: center; gap: 8px; }
+.nav a .tile { width: 20px; height: 20px; flex: none; }
+.nav a .tile rect { fill: var(--ink); }
+.nav a .tile path { fill: var(--paper); }
+.nav a[aria-current="page"] .tile path { fill: #e9772c; }
+.nav a:hover .tile path { fill: #e9772c; }
