@@ -428,6 +428,7 @@ t('Consulting and technical work, scoped as a short study, a delivered model or 
   'Consultoría y trabajo técnico, como estudio breve, modelo entregado o asesoría continuada. La primera llamada es gratuita.')
 t('Get an offer', 'Ζητήστε προσφορά', 'Richiedi un\'offerta', 'Solicitar una oferta')
 
+t('Available on request', 'Διαθέσιμο κατόπιν αιτήματος', 'Disponibile su richiesta', 'Disponible bajo petición')
 here = os.path.dirname(os.path.abspath(__file__))
 for i, code in enumerate(['el', 'it', 'es'], start=1):
     json.dump({row[0]: row[i] for row in T}, open(os.path.join(here, code + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

@@ -378,3 +378,9 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
 
 /* Footer wordmark */
 footer .foot-wordmark { width: 130px; height: auto; display: block; margin: 2px 0 10px; }
+
+/* CV download held back for now */
+.soon { cursor: default; opacity: .55; }
+.soon:hover { text-decoration: none; background: inherit; }
+.btn.soon:hover { background: var(--ink); border-color: var(--ink); }
+.btn.ghost.soon:hover { background: transparent; }

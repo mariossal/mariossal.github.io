@@ -50,7 +50,7 @@ def translate(html, table):
 def localize_paths(html):
     # assets and links move one level up; page links stay relative within the folder
     html = re.sub(r'href="style\.css(?:\?v=\d+)?"', 'href="style.css"', html)
-    html = re.sub(r'(href|src)="(style\.css|favicon\.svg|apple-touch-icon\.png|logo\.svg|portrait(?:-2)?\.jpg|cv\.pdf|logos/[^"]+)"', r'\1="../\2"', html)
+    html = re.sub(r'(href|src)="(style\.css|favicon\.svg|apple-touch-icon\.png|logo\.svg|portrait(?:-2)?\.jpg|logos/[^"]+)"', r'\1="../\2"', html)
     html = re.sub(r'href="\.\./style\.css"', 'href="../style.css?v=%s"' % STAMP, html)
     return html
 
