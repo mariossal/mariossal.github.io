@@ -351,3 +351,6 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
 
 /* Brand wordmark in the offer card */
 .offer .wordmark { width: min(100%, 360px); height: auto; display: block; margin-bottom: 18px; }
+
+.hero .hero-wordmark { width: min(100%, 300px); height: auto; display: block; margin: 14px 0 22px; }
+@media (prefers-reduced-motion: no-preference) { .hero .hero-wordmark { animation: rise .7s .06s cubic-bezier(.2,.7,.2,1) both; } }
