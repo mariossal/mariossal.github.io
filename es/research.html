@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Resumen de investigación, métodos y publicaciones de Marios Saleptsis: predicción orientada a la decisión para la programación de baterías en microrredes.">
+<title>Investigación · Marios Saleptsis</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght,SOFT,WONK@9..144,300..700,0..100,0..1&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" hreflang="en" href="https://mariossal.github.io/research.html">
+<link rel="alternate" hreflang="el" href="https://mariossal.github.io/el/research.html">
+<link rel="alternate" hreflang="it" href="https://mariossal.github.io/it/research.html">
+<link rel="alternate" hreflang="es" href="https://mariossal.github.io/es/research.html">
+<link rel="alternate" hreflang="x-default" href="https://mariossal.github.io/research.html">
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img class="logo" src="../logo.svg" alt="marios_sal" width="52" height="52"><span class="brand-text">Marios Saleptsis<small>Ingeniería Eléctrica · Politecnico di Milano</small></span></a>
+    <nav class="nav" aria-label="Site">
+      <a href="index.html"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M12 4.5 4 11.2V19a1 1 0 0 0 1 1h4.5v-4.5h5V20H19a1 1 0 0 0 1-1v-7.8z"/></svg>Inicio</a>
+      <a href="research.html" aria-current="page"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M9.5 4h5v1.5h-1V9l4.8 8.3A1.6 1.6 0 0 1 16.9 20H7.1a1.6 1.6 0 0 1-1.4-2.7L10.5 9V5.5h-1zM9.2 13.5 7.3 16.8h9.4l-1.9-3.3z"/></svg>Investigación</a>
+      <a href="projects.html"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M4.5 4.5h6v6h-6zM13.5 4.5h6v6h-6zM4.5 13.5h6v6h-6zM15.7 13.5h1.6v2.2h2.2v1.6h-2.2v2.2h-1.6v-2.2h-2.2v-1.6h2.2z"/></svg>Proyectos</a>
+      <a href="services.html"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M9 4.5A1.5 1.5 0 0 1 10.5 3h3A1.5 1.5 0 0 1 15 4.5V6h4a1.5 1.5 0 0 1 1.5 1.5V11H3.5V7.5A1.5 1.5 0 0 1 5 6h4zm1.5 0V6h3V4.5zM3.5 12.5h7V14h3v-1.5h7V19a1.5 1.5 0 0 1-1.5 1.5H5A1.5 1.5 0 0 1 3.5 19z"/></svg>Servicios</a>
+      <a href="teaching.html"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M12 5 3 9l9 4 7.2-3.2V15h1.6V9zM7 12.6V16c0 1.4 2.3 2.6 5 2.6s5-1.2 5-2.6v-3.4l-5 2.2z"/></svg>Docencia</a>
+      <a href="cv.html"><svg class="tile" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5"/><path d="M6.5 3.5h7l4 4V19a1.5 1.5 0 0 1-1.5 1.5h-9.5A1.5 1.5 0 0 1 5 19V5a1.5 1.5 0 0 1 1.5-1.5zm6.5 1.5v3h3zM8 11.5h8V13H8zm0 3.5h8v1.5H8z"/></svg>CV</a>
+    </nav>
+    <div class="lang" aria-label="Language">
+      <a href="../research.html" hreflang="en" title="English"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#1f3a66"/><path d="M0 0l60 40M60 0L0 40" stroke="#fff" stroke-width="8"/><path d="M0 0l60 40M60 0L0 40" stroke="#c8312b" stroke-width="3"/><path d="M30 0v40M0 20h60" stroke="#fff" stroke-width="12"/><path d="M30 0v40M0 20h60" stroke="#c8312b" stroke-width="6"/></svg><span>EN</span></a>
+      <a href="../el/research.html" hreflang="el" title="Ελληνικά"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#1d5fb5"/><path d="M0 6.7h60M0 15.6h60M0 24.4h60M0 33.3h60" stroke="#fff" stroke-width="4.4"/><rect width="22" height="22" fill="#1d5fb5"/><path d="M11 0v22M0 11h22" stroke="#fff" stroke-width="4.4"/></svg><span>EL</span></a>
+      <a href="../it/research.html" hreflang="it" title="Italiano"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="20" height="40" fill="#1a8a4a"/><rect x="20" width="20" height="40" fill="#f6f1e7"/><rect x="40" width="20" height="40" fill="#c8312b"/></svg><span>IT</span></a>
+      <a href="../es/research.html" aria-current="true" hreflang="es" title="Español"><svg viewBox="0 0 60 40" aria-hidden="true"><rect width="60" height="40" fill="#c8312b"/><rect y="10" width="60" height="20" fill="#f2c318"/></svg><span>ES</span></a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+      <div class="hero-curve" aria-hidden="true">
+        <svg viewBox="0 0 1200 420" preserveAspectRatio="xMidYMax slice">
+          <path class="grid" d="M0 330H1200M0 250H1200M0 170H1200M0 90H1200"/>
+          <path d="M0 400 C150 400 220 395 300 360 S470 130 600 118 S900 360 1000 392 S1120 400 1200 400"/>
+          <path class="soc" d="M0 350 L260 350 C330 350 380 300 430 240 S560 130 640 120 L760 120 C820 120 860 200 900 260 S980 340 1040 350 L1200 350"/>
+        </svg>
+      </div>
+    <div class="wrap">
+      <p class="eyebrow">Investigación</p>
+      <h1>Predicciones juzgadas por las decisiones que provocan</h1>
+      <p class="lede">Un sistema de gestión de energía de una microrred predice carga, fotovoltaica y precios y después resuelve un problema de despacho. Mi trabajo cierra ese bucle: el predictor se entrena sobre el coste del programa que produce, y la teoría dice cuándo eso ayuda con garantía.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="sec-head">
+        <p class="eyebrow">Resumen</p>
+        <h2>La tesis en una página</h2>
+      </div>
+      <div class="prose">
+        <p>La programación de baterías en una microrred depende de predicciones de generación fotovoltaica, carga y precios de la electricidad. La práctica habitual entrena esos predictores para la precisión estadística y entrega el resultado a un optimizador. Mi trabajo doctoral sustituye esa separación por un entrenamiento sensible al coste y orientado a la decisión, en el que el predictor queda moldeado por el coste operativo del despacho que induce.</p>
+        <p>Las contribuciones van de lo práctico a lo teórico. Las funciones de pérdida sensibles al coste y los selectores de predicción hacen que un predictor fotovoltaico estándar sea sensible a los precios sin tocar el optimizador. El aprendizaje orientado a la decisión entrena predictores de carga y fotovoltaica end-to-end a través del problema de despacho del BESS y muestra que predictores con mayor RMSE pueden producir menor coste, con reducciones del <span class="num">3.78%</span> en operación normal y del <span class="num">30.60%</span> cuando el intercambio con la red está restringido. Para el entrenamiento online, demuestro las primeras garantías de regret a través de un optimizador de despacho cuyo estado de carga arrastra cada error pasado hacia el futuro. Cuando varios predictores se entrenan por separado, una formulación de juego potencial con un esquema Stackelberg-Nash los coordina. El entrenamiento averso al riesgo aplica el Conditional Value-at-Risk a la distribución del regret, de modo que la cola de los peores días de programación moldea el modelo. Por último, un diagnóstico de precios sombra ofrece una atribución exacta y certificada del coste a errores de predicción individuales, explicada por la proximidad a restricciones activas, el momento respecto a la tarifa y la dirección del error.</p>
+        <p>Todo ello se valida en la microrred MG²Lab del Politecnico di Milano, con hasta <span class="num">100 kW</span> de fotovoltaica, un sistema de almacenamiento híbrido de <span class="num">210 kWh</span> , una unidad micro-CHP de <span class="num">25 kW</span> , cargadores de vehículos eléctricos y cargas programables, y en el marco de los proyectos Horizon Europe MOST, MESSI y NEST.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Instituciones</p>
+        <h2>Dónde se hizo el trabajo</h2>
+      </div>
+      <ul class="inst">
+        <li><span class="plate"><img src="../logos/polimi.png" alt="Logotipo del Politecnico di Milano" loading="lazy"></span><span class="name">Politecnico di Milano</span><span class="role">Investigación doctoral, docencia, MG²Lab</span><span class="where">Milán, Italia</span></li>
+        <li><span class="plate"><img src="../logos/polymtl.png" alt="Logotipo de Polytechnique Montréal" loading="lazy"></span><span class="name">Polytechnique Montréal</span><span class="role">Investigador visitante</span><span class="where">Montreal, Canadá</span></li>
+        <li><span class="plate"><img src="../logos/upm.png" alt="Logotipo de la Universidad Politécnica de Madrid" loading="lazy"></span><span class="name">Universidad Politécnica de Madrid</span><span class="role">Semestre Erasmus, laboratorios de IoT y energías renovables</span><span class="where">Madrid, España</span></li>
+        <li><span class="plate"><img src="../logos/uowm.png" alt="Logotipo de la Universidad de Macedonia Occidental" loading="lazy"></span><span class="name">Universidad de Macedonia Occidental</span><span class="role">Título en Ingeniería Eléctrica e Informática</span><span class="where">Kozani, Grecia</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Especialización</p>
+        <h2>Métodos</h2>
+      </div>
+      <div class="grid-3">
+        <div>
+          <h3>Aprendizaje orientado a la decisión</h3>
+          <ul>
+            <li>Entrenamiento end-to-end a través de despacho LP y MILP</li>
+            <li>Aprendizaje online y análisis de regret</li>
+            <li>Coordinación de varios predictores mediante teoría de juegos</li>
+            <li>Objetivos de entrenamiento aversos al riesgo (CVaR)</li>
+            <li>Métodos de orden cero para problemas mixtos enteros</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Predicción</h3>
+          <ul>
+            <li>Funciones de pérdida sensibles al coste y asimétricas</li>
+            <li>Gradient boosting y redes neuronales</li>
+            <li>Predicción probabilística: NGBoost, conformal prediction, GP dispersos</li>
+            <li>Selección y combinación de predicciones</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Optimización y análisis</h3>
+          <ul>
+            <li>Programación de baterías y recarga de vehículos eléctricos</li>
+            <li>Despacho estocástico y con restricciones de reserva</li>
+            <li>Dualidad, teorema de la envolvente y sensibilidad multiparamétrica</li>
+            <li>Diagnóstico de precios sombra</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap two-col">
+      <div class="sec-head">
+        <p class="eyebrow">Ámbitos</p>
+        <h2>Áreas de aplicación</h2>
+      </div>
+      <div class="tags tags-lg">
+        <span class="tag">Microrredes</span>
+        <span class="tag">Almacenamiento en baterías</span>
+        <span class="tag">Generación fotovoltaica</span>
+        <span class="tag">Recarga de vehículos eléctricos</span>
+        <span class="tag">Sistemas de gestión de energía</span>
+        <span class="tag">Mercados eléctricos y tarifas</span>
+        <span class="tag">Monitorización de parques fotovoltaicos</span>
+        <span class="tag">Almacenamiento híbrido</span>
+        <span class="tag">Validación en laboratorio</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="publications">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Publicaciones</p>
+        <h2>En revisión y aceptadas</h2>
+        <p class="muted">Registro completo en <a href="https://scholar.google.com/citations?user=uJFeDVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a> y <a href="https://www.researchgate.net/profile/Marios-Saleptsis" target="_blank" rel="noopener">ResearchGate</a>.</p>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Decision-Focused Learning for Optimal BESS Scheduling Under Load and PV Uncertainty in Microgrids</div>
+          <div class="authors"><b>M. Saleptsis</b>, A. Lesage-Landry, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Energy, Elsevier</span><span class="status rev">En revisión</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Bridging the Gap between Predictive Accuracy and Operational Optimality: A Cost-Aware PV Forecasting Framework</div>
+          <div class="authors"><b>M. Saleptsis</b>, R. Ramaschi, A. Fusco, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Applied Energy, número especial Microgrids 2027</span><span class="status rev">En revisión</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Game-Theoretic Decision-Focused Learning for Microgrid Scheduling Under Multi-Source Uncertainty</div>
+          <div class="authors"><b>M. Saleptsis</b>, A. Lesage-Landry, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>IEEE Transactions on Smart Grid</span><span class="status rev">En revisión</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">A Novel Hierarchical Stacked Framework for Short-Term Load Forecasting: An Extreme Learning Machine and Extreme Gradient Boosting Ensemble Method</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>IEEE Transactions on Industry Applications</span><span class="status rev">En revisión</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">A Stacked Ensemble Approach for Probabilistic PV Forecasting: Combining Physical Hybrid Neural Networks with Natural Gradient Boosting</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>ELECTRIMACS 2026, Palermo, Italia, mayo de 2026</span><span class="status pub">Aceptado</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Towards a Peer-Based Probabilistic Framework for Photovoltaic Performance Monitoring with Aggregated Data</div>
+          <div class="authors">R. Ramaschi, <b>M. Saleptsis</b>, E. Ogliari, S. Leva</div>
+          <div class="venue"><span>ELECTRIMACS 2026, Palermo, Italia, mayo de 2026</span><span class="status pub">Aceptado</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Publicaciones</p>
+        <h2>Publicadas</h2>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">State of Health Resistance Estimation Based on a Feed Forward Neural Network</div>
+          <div class="authors">P. Eleftheriadis, <b>M. Saleptsis</b>, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, julio de 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Data-Driven Timestep Analysis for State of Health Estimation Using BiLSTM Neural Networks</div>
+          <div class="authors">P. Eleftheriadis, <b>M. Saleptsis</b>, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, julio de 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Extreme Gradient Boosting for Day-Ahead Photovoltaic Output Power Forecast Refinement</div>
+          <div class="authors"><b>M. Saleptsis</b>, R. Ramaschi, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, junio de 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2025</span>
+          <div class="title">Gradient Boosting Algorithms for Day-Ahead Residential Load Forecasting of Individual Household</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, junio de 2025</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">Comparative Analysis of Wireless Protocols in Smart Home Energy Management Systems</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, octubre de 2024</span></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">Impact of PV and EV Forecasting in the Operation of a Microgrid</div>
+          <div class="authors"><b>M. Saleptsis</b>, G. Manzolini, A. Fusco, D. Gioffrè, S. Leva</div>
+          <div class="venue"><span>Forecasting, vol. 6, n.º 3, 2024</span><span class="status pub">Revista</span></div>
+          <div class="links"><a href="https://doi.org/10.3390/forecast6030032" target="_blank" rel="noopener">doi:10.3390/forecast6030032</a></div>
+        </li>
+        <li class="pub">
+          <span class="yr">2024</span>
+          <div class="title">An Overview of Optimization Methods for Home Energy Management Systems</div>
+          <div class="authors"><b>M. Saleptsis</b>, M. Mussetta, S. Leva</div>
+          <div class="venue"><span>Artículo de congreso, junio de 2024</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">Tesis</p>
+        <h2>Tesis doctoral</h2>
+      </div>
+      <ul class="pubs">
+        <li class="pub">
+          <span class="yr">2026</span>
+          <div class="title">Cost-Aware and Decision-Focused Forecasting for Battery Energy Storage Scheduling in Microgrids</div>
+          <div class="authors"><b>M. Saleptsis</b> · Directores: S. Leva, M. Mussetta</div>
+          <div class="venue"><span>Politecnico di Milano, ciclo XXXIX</span><span class="status">Defensa prevista en noviembre de 2026</span></div>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <h4>Contacto</h4>
+      <ul>
+        <li>marios.saleptsis@polimi.it</li>
+        <li>Politecnico di Milano, Departamento de Energía</li>
+        <li>Via Lambruschini 4, 20156 Milán, Italia</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Enlaces</h4>
+      <ul>
+        <li><a href="https://scholar.google.com/citations?user=uJFeDVoAAAAJ" target="_blank" rel="noopener">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Marios-Saleptsis" target="_blank" rel="noopener">ResearchGate</a></li>
+        <li><a href="https://www.linkedin.com/in/marios-saleptsis/" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="../cv.pdf" target="_blank" rel="noopener">CV (PDF)</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Colofón</h4>
+      <ul>
+        <li>© 2026 Marios Saleptsis</li>
+        <li class="fine">Milán · MG²Lab · Politecnico di Milano</li>
+        <li class="fine">Última actualización septiembre de 2026</li>
+      </ul>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mariossal.github.io/</loc></url>
+  <url><loc>https://mariossal.github.io/el/index.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/index.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/index.html</loc></url>
   <url><loc>https://mariossal.github.io/research.html</loc></url>
+  <url><loc>https://mariossal.github.io/el/research.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/research.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/research.html</loc></url>
   <url><loc>https://mariossal.github.io/projects.html</loc></url>
+  <url><loc>https://mariossal.github.io/el/projects.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/projects.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/projects.html</loc></url>
   <url><loc>https://mariossal.github.io/services.html</loc></url>
+  <url><loc>https://mariossal.github.io/el/services.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/services.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/services.html</loc></url>
   <url><loc>https://mariossal.github.io/teaching.html</loc></url>
+  <url><loc>https://mariossal.github.io/el/teaching.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/teaching.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/teaching.html</loc></url>
   <url><loc>https://mariossal.github.io/cv.html</loc></url>
+  <url><loc>https://mariossal.github.io/el/cv.html</loc></url>
+  <url><loc>https://mariossal.github.io/it/cv.html</loc></url>
+  <url><loc>https://mariossal.github.io/es/cv.html</loc></url>
 </urlset>

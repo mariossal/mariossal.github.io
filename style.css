@@ -314,3 +314,37 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 main > section:nth-child(even) .services > div { background: var(--paper-2); }
 .services h3 { border-bottom: 0; padding-bottom: 0; }
 .nav { gap: clamp(10px, 2vw, 22px); }
+
+/* Offer card on the home page */
+.offer { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: center; padding: clamp(22px, 4vw, 40px); border: 1px solid var(--accent); background: var(--paper); color: var(--ink); text-decoration: none; }
+.offer:hover { text-decoration: none; background: var(--paper-2); }
+.offer h2 { font-size: clamp(1.4rem, 2.6vw, 2rem); margin-bottom: 8px; }
+.offer .btn { white-space: nowrap; }
+@media (max-width: 640px) { .offer { grid-template-columns: 1fr; } }
+
+/* Language switcher */
+.lang { display: flex; gap: 6px; align-items: center; }
+.lang a { display: inline-flex; align-items: center; gap: 6px; font-family: var(--mono); font-size: .72rem; letter-spacing: .08em; padding: 5px 8px; border: 1px solid transparent; border-radius: 999px; color: var(--ink-2); }
+.lang a svg { width: 18px; height: 12px; border-radius: 2px; box-shadow: 0 0 0 1px var(--rule); }
+.lang a:hover { text-decoration: none; color: var(--ink); border-color: var(--rule); }
+.lang a[aria-current="true"] { color: var(--ink); border-color: var(--accent); }
+
+/* Phones and tablets */
+@media (max-width: 900px) {
+  .masthead .wrap { flex-wrap: wrap; gap: 10px 16px; }
+  .brand { flex: 1 1 100%; }
+  .lang { margin-left: auto; }
+  .nav { flex: 1 1 100%; flex-wrap: nowrap; overflow-x: auto; gap: 14px; padding-bottom: 6px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .nav::-webkit-scrollbar { display: none; }
+  .nav a { white-space: nowrap; }
+}
+@media (max-width: 520px) {
+  .brand .logo { width: 44px; height: 44px; }
+  .brand { font-size: 1.05rem; }
+  .lang a span { display: none; }
+  .lang a { padding: 6px; }
+  .hero .lede { font-size: 1.1rem; }
+  .links-row .btn { padding: 11px 14px; font-size: .72rem; }
+  .portrait::before { inset: 10px -10px -10px 10px; }
+  .hero-grid { gap: 28px; }
+}
