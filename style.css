@@ -354,3 +354,6 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
 
 .hero .hero-wordmark { width: min(100%, 300px); height: auto; display: block; margin: 0 0 28px; }
 @media (prefers-reduced-motion: no-preference) { .hero .hero-wordmark { animation: rise .7s .06s cubic-bezier(.2,.7,.2,1) both; } }
+/* Hero wordmark: full-strength tagline so it reads over the ambient curve */
+.hero-wordmark path[fill="var(--ink-2)"] { fill: var(--ink); }
+.hero .hero-wordmark { width: min(100%, 320px); }
