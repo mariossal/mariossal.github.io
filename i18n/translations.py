@@ -563,6 +563,21 @@ t('Research projects, software and applied work.', 'Ερευνητικά έργ�
 
 t('Consulting and technical work, scoped as a short study, a delivered model or ongoing advisory.', 'Συμβουλευτική και τεχνική εργασία, ως σύντομη μελέτη, παραδοτέο μοντέλο ή συνεχής συμβουλευτική.', 'Consulenza e lavoro tecnico, come studio breve, modello consegnato o consulenza continuativa.', 'Consultoría y trabajo técnico, como estudio breve, modelo entregado o asesoría continuada.')
 t('Electrical Engineering PhD · Politecnico di Milano', 'Διδάκτωρ Ηλεκτρολόγος Μηχανικός · Politecnico di Milano', 'Dottore di ricerca in Ingegneria Elettrica · Politecnico di Milano', 'Doctor en Ingeniería Eléctrica · Politecnico di Milano')
+# Graphics
+t('In one picture', 'Σε μία εικόνα', 'In un\'immagine', 'En una imagen')
+t('A day of solar power', 'Μια ημέρα ηλιακής ενέργειας', 'Una giornata di energia solare', 'Un día de energía solar')
+t('The forecast made the evening before, and what the plant actually produced. The gap is where cost is won or lost.',
+  'Η πρόβλεψη που έγινε το προηγούμενο βράδυ και όσα παρήγαγε πραγματικά ο σταθμός. Στη διαφορά κερδίζεται ή χάνεται το κόστος.',
+  'La previsione fatta la sera prima e ciò che l\'impianto ha effettivamente prodotto. Nel divario si vince o si perde il costo.',
+  'La predicción hecha la noche anterior y lo que la planta produjo realmente. En esa diferencia se gana o se pierde el coste.')
+t('Illustrative profile of a summer day. Not measured data.', 'Ενδεικτικό προφίλ μιας καλοκαιρινής ημέρας. Όχι μετρημένα δεδομένα.', 'Profilo illustrativo di una giornata estiva. Non sono dati misurati.', 'Perfil ilustrativo de un día de verano. No son datos medidos.')
+t('The system', 'Το σύστημα', 'Il sistema', 'El sistema')
+t('Everything connected, one decision at a time', 'Όλα συνδεδεμένα, μία απόφαση κάθε φορά', 'Tutto connesso, una decisione alla volta', 'Todo conectado, una decisión cada vez')
+t('Solar, storage, loads, electric vehicles and the grid, coordinated by an energy management system that runs on forecasts.',
+  'Ηλιακή ενέργεια, αποθήκευση, φορτία, ηλεκτρικά οχήματα και δίκτυο, συντονισμένα από ένα σύστημα διαχείρισης ενέργειας που λειτουργεί με προβλέψεις.',
+  'Solare, accumulo, carichi, veicoli elettrici e rete, coordinati da un sistema di gestione dell\'energia che si basa sulle previsioni.',
+  'Solar, almacenamiento, cargas, vehículos eléctricos y red, coordinados por un sistema de gestión de energía que funciona con predicciones.')
+
 here = os.path.dirname(os.path.abspath(__file__))
 for i, code in enumerate(['el', 'it', 'es'], start=1):
     json.dump({row[0]: row[i] for row in T}, open(os.path.join(here, code + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

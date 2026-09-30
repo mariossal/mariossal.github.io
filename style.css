@@ -395,3 +395,11 @@ footer .foot-wordmark { width: 130px; height: auto; display: block; margin: 2px 
 :root[data-theme="dark"] .lang .theme .moon { display: block; }
 :root[data-theme="light"] .lang .theme .sun { display: block; }
 :root[data-theme="light"] .lang .theme .moon { display: none; }
+
+/* Graphics */
+.hero-curve canvas { width: 100%; height: 100%; display: block; }
+.graphic { margin: 0; min-width: 0; }
+.graphic canvas { width: 100%; height: 300px; display: block; }
+canvas[data-graphic="network"] { height: 340px; }
+.graphic figcaption { margin-top: 8px; }
+@media (max-width: 520px) { .graphic canvas { height: 240px; } canvas[data-graphic="network"] { height: 300px; } }
