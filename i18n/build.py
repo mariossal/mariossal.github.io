@@ -27,6 +27,7 @@ def switcher(current, depth):
         folder = '' if code == 'en' else code + '/'
         cur = ' aria-current="true"' if code == current else ''
         out.append('      <a href="%s%s{page}"%s hreflang="%s" title="%s">%s<span>%s</span></a>' % (up, folder, cur, code, NAMES[code], FLAGS[code], code.upper()))
+    out.append('      <button class="theme" id="theme-toggle" type="button" aria-label="Switch theme"><svg class="sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8"/></svg><svg class="moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4a8.5 8.5 0 1 0 10.5 10.5z"/></svg></button>')
     out.append('    </div>')
     return '\n'.join(out)
 
@@ -50,7 +51,7 @@ def translate(html, table):
 def localize_paths(html):
     # assets and links move one level up; page links stay relative within the folder
     html = re.sub(r'href="style\.css(?:\?v=\d+)?"', 'href="style.css"', html)
-    html = re.sub(r'(href|src)="(style\.css|favicon\.svg|apple-touch-icon\.png|logo\.svg|portrait(?:-2)?\.jpg|logos/[^"]+|cv-block\.js)"', r'\1="../\2"', html)
+    html = re.sub(r'(href|src)="(style\.css|favicon\.svg|apple-touch-icon\.png|logo\.svg|portrait(?:-2)?\.jpg|logos/[^"]+|cv-block\.js|theme\.js)"', r'\1="../\2"', html)
     html = re.sub(r'href="\.\./style\.css"', 'href="../style.css?v=%s"' % STAMP, html)
     return html
 
