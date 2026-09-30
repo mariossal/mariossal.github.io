@@ -16,3 +16,6 @@ After choosing a custom domain, replace mariossal.github.io in `sitemap.xml` and
 English pages live at the root and are the source. Greek, Italian and Spanish pages are generated:
 edit a translation in `i18n/translations.py`, then run `python3 i18n/translations.py && python3 i18n/build.py`.
 Strings without a translation stay in English (publication titles, names, tool names).
+
+## Licence
+All content, design and brand in this repository are copyright Marios Saleptsis, all rights reserved. See `LICENSE`. A public repository is required by GitHub Pages and does not place the material in the public domain.
