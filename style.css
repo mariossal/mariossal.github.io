@@ -375,3 +375,6 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
   .masthead .head-wordmark { width: 130px; }
 }
 @media (max-width: 520px) { .masthead .head-wordmark { width: 110px; } }
+
+/* Footer wordmark */
+footer .foot-wordmark { width: 130px; height: auto; display: block; margin: 2px 0 10px; }
