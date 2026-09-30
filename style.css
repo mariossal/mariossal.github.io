@@ -348,3 +348,6 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
   .portrait::before { inset: 10px -10px -10px 10px; }
   .hero-grid { gap: 28px; }
 }
+
+/* Brand wordmark in the offer card */
+.offer .wordmark { width: min(100%, 360px); height: auto; display: block; margin-bottom: 18px; }
