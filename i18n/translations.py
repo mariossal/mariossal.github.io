@@ -562,6 +562,7 @@ t('PhD, Politecnico di Milano', 'Διδακτορικό, Politecnico di Milano',
 t('Research projects, software and applied work.', 'Ερευνητικά έργα, λογισμικό και εφαρμοσμένη δουλειά.', 'Progetti di ricerca, software e lavoro applicato.', 'Proyectos de investigación, software y trabajo aplicado.')
 
 t('Consulting and technical work, scoped as a short study, a delivered model or ongoing advisory.', 'Συμβουλευτική και τεχνική εργασία, ως σύντομη μελέτη, παραδοτέο μοντέλο ή συνεχής συμβουλευτική.', 'Consulenza e lavoro tecnico, come studio breve, modello consegnato o consulenza continuativa.', 'Consultoría y trabajo técnico, como estudio breve, modelo entregado o asesoría continuada.')
+t('Electrical Engineering PhD · Politecnico di Milano', 'Διδάκτωρ Ηλεκτρολόγος Μηχανικός · Politecnico di Milano', 'Dottore di ricerca in Ingegneria Elettrica · Politecnico di Milano', 'Doctor en Ingeniería Eléctrica · Politecnico di Milano')
 here = os.path.dirname(os.path.abspath(__file__))
 for i, code in enumerate(['el', 'it', 'es'], start=1):
     json.dump({row[0]: row[i] for row in T}, open(os.path.join(here, code + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
