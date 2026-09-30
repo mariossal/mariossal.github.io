@@ -305,10 +305,10 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 .nav a:hover .tile path { fill: #e9772c; }
 
 /* Institution logos */
-.inst .plate { display: grid; place-items: center; height: 124px; background: #ffffff; border: 1px solid var(--rule); border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; }
+.inst .plate { display: flex; align-items: center; justify-content: center; height: 124px; background: #ffffff; border: 1px solid var(--rule); border-radius: 6px; padding: 12px 16px; margin-bottom: 12px; overflow: hidden; }
+.inst .plate img { max-height: 96px; max-width: 100%; width: auto; height: auto; object-fit: contain; }
 .inst .plate img[src*="polymtl"], .inst .plate img[src*="upm"], .inst .plate img[src*="polimi"] { max-width: 84%; }
-.inst .plate img[src*="uowm"] { max-height: 62%; }
-.inst .plate img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+.inst .plate img[src*="uowm"] { max-height: 60px; }
 
 /* Services grid */
 .services { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
