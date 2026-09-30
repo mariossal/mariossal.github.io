@@ -307,3 +307,10 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 /* Institution logos */
 .inst .plate { display: grid; place-items: center; height: 96px; background: var(--plate); border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; }
 .inst .plate img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
+
+/* Services grid */
+.services { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.services > div { padding: 22px; border: 1px solid var(--rule); background: var(--paper); }
+main > section:nth-child(even) .services > div { background: var(--paper-2); }
+.services h3 { border-bottom: 0; padding-bottom: 0; }
+.nav { gap: clamp(10px, 2vw, 22px); }
