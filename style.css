@@ -358,15 +358,17 @@ main > section:nth-child(even) .services > div { background: var(--paper-2); }
 .wordmark path[fill="var(--ink-2)"] { fill: #e9772c; }
 
 
-/* Wordmark at the top right, above the language switcher */
-.masthead-right { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; margin-left: auto; }
-.masthead .head-wordmark { width: 150px; height: auto; display: block; }
-@media (max-width: 900px) { .masthead-right { margin-left: auto; } }
-@media (max-width: 520px) { .masthead .head-wordmark { width: 120px; } }
-/* Header: wordmark on the top line, flags level with the page tiles */
-@media (min-width: 901px) {
-  .masthead .wrap { align-items: stretch; padding-block: 8px 10px; }
-  .brand { align-self: center; }
-  .nav { align-self: flex-end; padding-bottom: 5px; }
-  .masthead-right { justify-content: space-between; gap: 6px; }
+/* Header grid: name and wordmark on the first row, tiles and flags on the second */
+.masthead .wrap { display: grid; grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: auto auto; align-items: center; row-gap: 2px; column-gap: 24px; padding-block: 8px 8px; }
+.brand { grid-area: 1 / 1; }
+.masthead .head-wordmark { grid-area: 1 / 2; width: 150px; height: auto; display: block; justify-self: end; }
+.nav { grid-area: 2 / 1; }
+.lang { grid-area: 2 / 2; justify-self: end; }
+.brand .logo { width: 44px; height: 44px; }
+@media (max-width: 900px) {
+  .masthead .wrap { grid-template-columns: minmax(0, 1fr) auto; }
+  .nav { grid-area: 3 / 1 / 4 / 3; }
+  .lang { grid-area: 2 / 1 / 3 / 3; justify-self: start; }
+  .masthead .head-wordmark { width: 130px; }
 }
+@media (max-width: 520px) { .masthead .head-wordmark { width: 110px; } }
