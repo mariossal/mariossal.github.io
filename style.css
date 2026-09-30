@@ -11,6 +11,7 @@
   --display: "Fraunces", "Iowan Old Style", Georgia, serif;
   --body: "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
   --mono: "IBM Plex Mono", "SFMono-Regular", Menlo, monospace;
+  --plate: transparent;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
@@ -21,6 +22,7 @@
     --rule: #3b362a;
     --accent: #6fc4bd;
     --accent-2: #e09a60;
+    --plate: #efe9dc;
     color-scheme: dark;
   }
 }
@@ -32,6 +34,7 @@
   --rule: #3b362a;
   --accent: #6fc4bd;
   --accent-2: #e09a60;
+  --plate: #efe9dc;
   color-scheme: dark;
 }
 
@@ -302,5 +305,5 @@ main > section:nth-child(even) .inst li { background: var(--paper-2); }
 .nav a:hover .tile path { fill: #e9772c; }
 
 /* Institution logos */
-.inst .plate { display: grid; place-items: center; height: 96px; background: #ffffff; border: 1px solid var(--rule); padding: 12px; margin-bottom: 10px; }
+.inst .plate { display: grid; place-items: center; height: 96px; background: var(--plate); border-radius: 8px; padding: 10px 12px; margin-bottom: 10px; }
 .inst .plate img { max-height: 100%; max-width: 100%; width: auto; height: auto; object-fit: contain; }
