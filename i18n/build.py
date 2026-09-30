@@ -4,7 +4,8 @@
 Run from the repository root:  python3 i18n/build.py
 Translations live in i18n/<lang>.json as {"english string": "translation"}.
 Strings with no entry stay in English (publication titles, names, tool names)."""
-import json, os, re
+import json, os, re, time
+STAMP = time.strftime('%Y%m%d%H%M')
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PAGES = ['index.html', 'research.html', 'projects.html', 'services.html', 'teaching.html', 'cv.html']
@@ -48,7 +49,9 @@ def translate(html, table):
 
 def localize_paths(html):
     # assets and links move one level up; page links stay relative within the folder
+    html = re.sub(r'href="style\.css(?:\?v=\d+)?"', 'href="style.css"', html)
     html = re.sub(r'(href|src)="(style\.css|favicon\.svg|apple-touch-icon\.png|logo\.svg|portrait(?:-2)?\.jpg|cv\.pdf|logos/[^"]+)"', r'\1="../\2"', html)
+    html = re.sub(r'href="\.\./style\.css"', 'href="../style.css?v=%s"' % STAMP, html)
     return html
 
 def main():
@@ -61,6 +64,7 @@ def main():
         else:
             en = re.sub(r'    <div class="lang".*?    </div>', switcher('en', 0).replace('{page}', page), en, count=1, flags=re.S)
         en = re.sub(r'<link rel="alternate" hreflang="[^"]+" href="[^"]+">\n?', '', en)
+        en = re.sub(r'href="style\.css(?:\?v=\d+)?"', 'href="style.css?v=%s"' % STAMP, en)
         en = en.replace('<link rel="icon"', hreflang_links(page) + '\n<link rel="icon"', 1) if '<link rel="icon"' in en else en
         open(os.path.join(ROOT, page), 'w', encoding='utf-8').write(en)
         for code in LANGS:
