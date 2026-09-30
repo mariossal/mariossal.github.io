@@ -429,6 +429,138 @@ t('Consulting and technical work, scoped as a short study, a delivered model or 
 t('Get an offer', 'Ζητήστε προσφορά', 'Richiedi un\'offerta', 'Solicitar una oferta')
 
 t('Available on request', 'Διαθέσιμο κατόπιν αιτήματος', 'Disponibile su richiesta', 'Disponible bajo petición')
+# Rewrite, September 2026
+t('Electrical engineer specialising in forecasting, optimization and artificial intelligence for the energy sector.',
+  'Ηλεκτρολόγος μηχανικός με εξειδίκευση στην πρόβλεψη, τη βελτιστοποίηση και την τεχνητή νοημοσύνη για τον ενεργειακό τομέα.',
+  'Ingegnere elettrico specializzato in previsione, ottimizzazione e intelligenza artificiale per il settore dell\'energia.',
+  'Ingeniero eléctrico especializado en predicción, optimización e inteligencia artificial para el sector energético.')
+t('I am an electrical engineer and researcher at Politecnico di Milano, where I am completing a doctorate on advanced forecasting methods for the optimal scheduling of microgrids. My work sits where data, optimization and energy systems meet: forecasting and decision tools that make batteries, photovoltaic plants and grids run better and cost less.',
+  'Είμαι ηλεκτρολόγος μηχανικός και ερευνητής στο Politecnico di Milano, όπου ολοκληρώνω διδακτορικό πάνω σε προηγμένες μεθόδους πρόβλεψης για τον βέλτιστο προγραμματισμό μικροδικτύων. Η δουλειά μου βρίσκεται στο σημείο όπου συναντιούνται τα δεδομένα, η βελτιστοποίηση και τα ενεργειακά συστήματα: εργαλεία πρόβλεψης και λήψης αποφάσεων που κάνουν τις μπαταρίες, τους φωτοβολταϊκούς σταθμούς και τα δίκτυα να λειτουργούν καλύτερα και με χαμηλότερο κόστος.',
+  'Sono un ingegnere elettrico e ricercatore al Politecnico di Milano, dove sto completando un dottorato su metodi avanzati di previsione per la programmazione ottima delle microreti. Il mio lavoro si colloca dove si incontrano dati, ottimizzazione e sistemi energetici: strumenti di previsione e di decisione che fanno funzionare meglio, e a costi inferiori, batterie, impianti fotovoltaici e reti.',
+  'Soy ingeniero eléctrico e investigador en el Politecnico di Milano, donde estoy completando un doctorado sobre métodos avanzados de predicción para la programación óptima de microrredes. Mi trabajo se sitúa donde se encuentran los datos, la optimización y los sistemas energéticos: herramientas de predicción y de decisión que hacen que las baterías, las plantas fotovoltaicas y las redes funcionen mejor y cuesten menos.')
+t('Before Milan I studied Electrical and Computer Engineering in Greece and Spain, worked as a project engineer on photovoltaic plants, managed European research projects and led forecasting development at an energy start-up. I also teach at Politecnico di Milano and advise companies on energy and AI.',
+  'Πριν από το Μιλάνο σπούδασα Ηλεκτρολόγος Μηχανικός και Μηχανικός Υπολογιστών στην Ελλάδα και την Ισπανία, εργάστηκα ως μηχανικός έργων σε φωτοβολταϊκούς σταθμούς, διαχειρίστηκα ευρωπαϊκά ερευνητικά έργα και ηγήθηκα της ανάπτυξης προβλέψεων σε μια ενεργειακή start-up. Διδάσκω επίσης στο Politecnico di Milano και συμβουλεύω εταιρείες σε θέματα ενέργειας και τεχνητής νοημοσύνης.',
+  'Prima di Milano ho studiato Ingegneria Elettrica e Informatica in Grecia e in Spagna, ho lavorato come ingegnere di progetto su impianti fotovoltaici, ho gestito progetti di ricerca europei e ho guidato lo sviluppo delle previsioni in una start-up dell\'energia. Insegno inoltre al Politecnico di Milano e affianco le aziende su energia e IA.',
+  'Antes de Milán estudié Ingeniería Eléctrica e Informática en Grecia y España, trabajé como ingeniero de proyectos en plantas fotovoltaicas, gestioné proyectos de investigación europeos y dirigí el desarrollo de predicción en una start-up energética. También doy clase en el Politecnico di Milano y asesoro a empresas en energía e IA.')
+t('A forecast is only as good as the decision it supports.', 'Μια πρόβλεψη αξίζει όσο η απόφαση που στηρίζει.', 'Una previsione vale quanto la decisione che sostiene.', 'Una predicción vale tanto como la decisión que respalda.')
+t('Forecasting for decisions', 'Πρόβλεψη για αποφάσεις', 'Previsione per le decisioni', 'Predicción para decisiones')
+t('Forecasts designed around the decisions they support, so that accuracy translates into operating value.',
+  'Προβλέψεις σχεδιασμένες γύρω από τις αποφάσεις που στηρίζουν, ώστε η ακρίβεια να μεταφράζεται σε λειτουργική αξία.',
+  'Previsioni progettate intorno alle decisioni che sostengono, così che l\'accuratezza si traduca in valore operativo.',
+  'Predicciones diseñadas en torno a las decisiones que respaldan, de modo que la precisión se traduzca en valor operativo.')
+t('Short-term forecasting of photovoltaic generation, electricity demand and market prices, deterministic and probabilistic.',
+  'Βραχυπρόθεσμη πρόβλεψη φωτοβολταϊκής παραγωγής, ζήτησης ηλεκτρικής ενέργειας και τιμών αγοράς, ντετερμινιστική και πιθανοτική.',
+  'Previsione a breve termine di produzione fotovoltaica, domanda elettrica e prezzi di mercato, deterministica e probabilistica.',
+  'Predicción a corto plazo de generación fotovoltaica, demanda eléctrica y precios de mercado, determinista y probabilística.')
+t('Optimal scheduling of batteries, electric vehicle charging and microgrids under technical and market constraints.',
+  'Βέλτιστος προγραμματισμός μπαταριών, φόρτισης ηλεκτρικών οχημάτων και μικροδικτύων υπό τεχνικούς περιορισμούς και περιορισμούς αγοράς.',
+  'Programmazione ottima di batterie, ricarica di veicoli elettrici e microreti sotto vincoli tecnici e di mercato.',
+  'Programación óptima de baterías, recarga de vehículos eléctricos y microrredes bajo restricciones técnicas y de mercado.')
+t('Photovoltaic plant engineering and data-driven performance monitoring of solar portfolios.',
+  'Μηχανική φωτοβολταϊκών σταθμών και παρακολούθηση απόδοσης ηλιακών χαρτοφυλακίων με βάση τα δεδομένα.',
+  'Ingegneria degli impianti fotovoltaici e monitoraggio data-driven delle prestazioni di portafogli solari.',
+  'Ingeniería de plantas fotovoltaicas y monitorización del rendimiento de carteras solares basada en datos.')
+t('Applied artificial intelligence', 'Εφαρμοσμένη τεχνητή νοημοσύνη', 'Intelligenza artificiale applicata', 'Inteligencia artificial aplicada')
+t('Machine learning for energy applications, from research prototypes to production systems.',
+  'Μηχανική μάθηση για ενεργειακές εφαρμογές, από ερευνητικά πρωτότυπα έως παραγωγικά συστήματα.',
+  'Machine learning per applicazioni energetiche, dai prototipi di ricerca ai sistemi in produzione.',
+  'Aprendizaje automático para aplicaciones energéticas, desde prototipos de investigación hasta sistemas en producción.')
+t('European research projects, international consortia and validation of new methods on real systems.',
+  'Ευρωπαϊκά ερευνητικά έργα, διεθνείς κοινοπραξίες και επικύρωση νέων μεθόδων σε πραγματικά συστήματα.',
+  'Progetti di ricerca europei, consorzi internazionali e validazione di nuovi metodi su sistemi reali.',
+  'Proyectos de investigación europeos, consorcios internacionales y validación de nuevos métodos en sistemas reales.')
+t('Forecasts judged by the decisions they enable', 'Προβλέψεις που κρίνονται από τις αποφάσεις που καθιστούν δυνατές', 'Previsioni giudicate dalle decisioni che rendono possibili', 'Predicciones juzgadas por las decisiones que hacen posibles')
+t('Energy systems run on forecasts. My research makes those forecasts serve the decisions that depend on them: scheduling batteries, integrating photovoltaics and operating microgrids at lower cost.',
+  'Τα ενεργειακά συστήματα λειτουργούν με προβλέψεις. Η έρευνά μου κάνει αυτές τις προβλέψεις να υπηρετούν τις αποφάσεις που εξαρτώνται από αυτές: προγραμματισμό μπαταριών, ενσωμάτωση φωτοβολταϊκών και λειτουργία μικροδικτύων με χαμηλότερο κόστος.',
+  'I sistemi energetici funzionano grazie alle previsioni. La mia ricerca mette quelle previsioni al servizio delle decisioni che ne dipendono: programmare le batterie, integrare il fotovoltaico e gestire le microreti a costi inferiori.',
+  'Los sistemas energéticos funcionan con predicciones. Mi investigación pone esas predicciones al servicio de las decisiones que dependen de ellas: programar baterías, integrar la fotovoltaica y operar microrredes a menor coste.')
+t('The thesis in brief', 'Η διατριβή εν συντομία', 'La tesi in breve', 'La tesis en breve')
+t('My doctoral thesis,', 'Η διδακτορική μου διατριβή,', 'La mia tesi di dottorato,', 'Mi tesis doctoral,')
+t(', studies how forecasting and optimization should be designed together. Conventional practice trains forecasting models for statistical accuracy and hands their output to a scheduler. I show that this separation leaves value on the table, and develop forecasting methods that are trained on the cost of the decisions they inform.',
+  ', μελετά πώς η πρόβλεψη και η βελτιστοποίηση πρέπει να σχεδιάζονται μαζί. Η συμβατική πρακτική εκπαιδεύει τα μοντέλα πρόβλεψης για στατιστική ακρίβεια και παραδίδει την έξοδό τους σε έναν προγραμματιστή. Δείχνω ότι αυτός ο διαχωρισμός αφήνει αξία ανεκμετάλλευτη και αναπτύσσω μεθόδους πρόβλεψης που εκπαιδεύονται στο κόστος των αποφάσεων που τροφοδοτούν.',
+  ', studia come previsione e ottimizzazione debbano essere progettate insieme. La prassi convenzionale addestra i modelli di previsione per l\'accuratezza statistica e ne consegna l\'output a uno scheduler. Mostro che questa separazione lascia valore inutilizzato e sviluppo metodi di previsione addestrati sul costo delle decisioni che alimentano.',
+  ', estudia cómo deben diseñarse juntas la predicción y la optimización. La práctica convencional entrena los modelos de predicción para la precisión estadística y entrega su salida a un programador. Muestro que esa separación deja valor sin aprovechar y desarrollo métodos de predicción entrenados sobre el coste de las decisiones que alimentan.')
+t('The work runs from method to deployment: cost-aware and decision-focused forecasting, guarantees for models that keep learning while the system operates, coordination of several forecasters within one energy management system, risk-aware training for the days that matter most, and diagnostic tools that tell an operator which forecast errors are actually costly. Every method is validated on a real laboratory microgrid with photovoltaic generation, battery storage and electric vehicle charging, and within European research projects.',
+  'Η δουλειά εκτείνεται από τη μέθοδο έως την εφαρμογή: πρόβλεψη ευαίσθητη στο κόστος και προσανατολισμένη στην απόφαση, εγγυήσεις για μοντέλα που συνεχίζουν να μαθαίνουν ενώ το σύστημα λειτουργεί, συντονισμός πολλών προβλεπτών μέσα σε ένα σύστημα διαχείρισης ενέργειας, εκπαίδευση με επίγνωση του κινδύνου για τις ημέρες που μετρούν περισσότερο, και διαγνωστικά εργαλεία που δείχνουν στον διαχειριστή ποια σφάλματα πρόβλεψης κοστίζουν πραγματικά. Κάθε μέθοδος επικυρώνεται σε ένα πραγματικό εργαστηριακό μικροδίκτυο με φωτοβολταϊκή παραγωγή, αποθήκευση σε μπαταρίες και φόρτιση ηλεκτρικών οχημάτων, και στο πλαίσιο ευρωπαϊκών ερευνητικών έργων.',
+  'Il lavoro va dal metodo all\'applicazione: previsione sensibile al costo e orientata alla decisione, garanzie per modelli che continuano ad apprendere mentre il sistema è in esercizio, coordinamento di più previsori all\'interno di un unico sistema di gestione dell\'energia, addestramento consapevole del rischio per i giorni che contano di più e strumenti diagnostici che indicano all\'operatore quali errori di previsione sono davvero costosi. Ogni metodo è validato su una microrete reale di laboratorio con produzione fotovoltaica, accumulo a batteria e ricarica di veicoli elettrici, e all\'interno di progetti di ricerca europei.',
+  'El trabajo va del método a la aplicación: predicción sensible al coste y orientada a la decisión, garantías para modelos que siguen aprendiendo mientras el sistema opera, coordinación de varios predictores dentro de un mismo sistema de gestión de energía, entrenamiento consciente del riesgo para los días que más importan y herramientas de diagnóstico que indican al operador qué errores de predicción resultan realmente costosos. Cada método se valida en una microrred real de laboratorio con generación fotovoltaica, almacenamiento en baterías y recarga de vehículos eléctricos, y en el marco de proyectos de investigación europeos.')
+t('Research areas', 'Ερευνητικές περιοχές', 'Aree di ricerca', 'Áreas de investigación')
+t('Photovoltaic and demand forecasting', 'Πρόβλεψη φωτοβολταϊκής παραγωγής και ζήτησης', 'Previsione fotovoltaica e della domanda', 'Predicción fotovoltaica y de la demanda')
+t('Probabilistic forecasting and uncertainty', 'Πιθανοτική πρόβλεψη και αβεβαιότητα', 'Previsione probabilistica e incertezza', 'Predicción probabilística e incertidumbre')
+t('Electricity price forecasting', 'Πρόβλεψη τιμών ηλεκτρικής ενέργειας', 'Previsione dei prezzi dell\'energia', 'Predicción de precios de la electricidad')
+t('Training forecasts through the optimization they feed', 'Εκπαίδευση προβλέψεων μέσα από τη βελτιστοποίηση που τροφοδοτούν', 'Addestramento delle previsioni attraverso l\'ottimizzazione che alimentano', 'Entrenamiento de predicciones a través de la optimización que alimentan')
+t('Learning during operation, with guarantees', 'Μάθηση κατά τη λειτουργία, με εγγυήσεις', 'Apprendimento durante l\'esercizio, con garanzie', 'Aprendizaje durante la operación, con garantías')
+t('Coordinating several forecasters in one system', 'Συντονισμός πολλών προβλεπτών σε ένα σύστημα', 'Coordinamento di più previsori in un unico sistema', 'Coordinación de varios predictores en un mismo sistema')
+t('Risk-aware objectives', 'Στόχοι με επίγνωση του κινδύνου', 'Obiettivi consapevoli del rischio', 'Objetivos conscientes del riesgo')
+t('Optimization and diagnostics', 'Βελτιστοποίηση και διαγνωστικά', 'Ottimizzazione e diagnostica', 'Optimización y diagnóstico')
+t('Battery and electric vehicle charging scheduling', 'Προγραμματισμός μπαταριών και φόρτισης ηλεκτρικών οχημάτων', 'Programmazione di batterie e ricarica di veicoli elettrici', 'Programación de baterías y recarga de vehículos eléctricos')
+t('Scheduling under uncertainty and reserve requirements', 'Προγραμματισμός υπό αβεβαιότητα και απαιτήσεις εφεδρείας', 'Programmazione sotto incertezza e requisiti di riserva', 'Programación bajo incertidumbre y requisitos de reserva')
+t('Attribution of cost to forecast errors', 'Απόδοση κόστους στα σφάλματα πρόβλεψης', 'Attribuzione del costo agli errori di previsione', 'Atribución de coste a los errores de predicción')
+t('Forecasts of photovoltaic generation, electricity demand and market prices, built on your data and delivered as a system you can operate, with a clear benchmark against what you use today.',
+  'Προβλέψεις φωτοβολταϊκής παραγωγής, ζήτησης ηλεκτρικής ενέργειας και τιμών αγοράς, χτισμένες στα δεδομένα σας και παραδοτέες ως σύστημα που μπορείτε να λειτουργείτε, με σαφή σύγκριση με ό,τι χρησιμοποιείτε σήμερα.',
+  'Previsioni di produzione fotovoltaica, domanda elettrica e prezzi di mercato, costruite sui vostri dati e consegnate come sistema che potete gestire, con un confronto chiaro rispetto a quanto usate oggi.',
+  'Predicciones de generación fotovoltaica, demanda eléctrica y precios de mercado, construidas sobre sus datos y entregadas como un sistema que puede operar, con una comparación clara frente a lo que usa hoy.')
+t('Operating strategies for battery storage, electric vehicle charging and microgrids that respect tariffs, grid limits and reserve requirements, from feasibility study to deployed scheduler.',
+  'Στρατηγικές λειτουργίας για αποθήκευση σε μπαταρίες, φόρτιση ηλεκτρικών οχημάτων και μικροδίκτυα που σέβονται τιμολόγια, όρια δικτύου και απαιτήσεις εφεδρείας, από μελέτη σκοπιμότητας έως εγκατεστημένο σύστημα προγραμματισμού.',
+  'Strategie operative per accumulo a batteria, ricarica di veicoli elettrici e microreti che rispettano tariffe, limiti di rete e requisiti di riserva, dallo studio di fattibilità allo scheduler in produzione.',
+  'Estrategias de operación para almacenamiento en baterías, recarga de vehículos eléctricos y microrredes que respetan tarifas, límites de red y requisitos de reserva, desde el estudio de viabilidad hasta el programador en producción.')
+t('Forecasting models trained on the value of the decisions they support rather than on accuracy alone. The approach behind my doctoral research, applied to your storage or trading problem.',
+  'Μοντέλα πρόβλεψης εκπαιδευμένα στην αξία των αποφάσεων που στηρίζουν και όχι μόνο στην ακρίβεια. Η προσέγγιση πίσω από τη διδακτορική μου έρευνα, εφαρμοσμένη στο δικό σας πρόβλημα αποθήκευσης ή εμπορίας ενέργειας.',
+  'Modelli di previsione addestrati sul valore delle decisioni che sostengono, non solo sull\'accuratezza. L\'approccio alla base della mia ricerca di dottorato, applicato al vostro problema di accumulo o trading.',
+  'Modelos de predicción entrenados sobre el valor de las decisiones que respaldan y no solo sobre la precisión. El enfoque de mi investigación doctoral, aplicado a su problema de almacenamiento o trading.')
+t('Performance monitoring of solar portfolios, underperformance detection and engineering review of plant design, drawing on hands-on experience in construction and commissioning.',
+  'Παρακολούθηση απόδοσης ηλιακών χαρτοφυλακίων, ανίχνευση υποαπόδοσης και τεχνικός έλεγχος του σχεδιασμού σταθμών, με πρακτική εμπειρία στην κατασκευή και τη θέση σε λειτουργία.',
+  'Monitoraggio delle prestazioni di portafogli solari, rilevamento di sottoprestazioni e revisione ingegneristica del progetto d\'impianto, con esperienza diretta in costruzione e messa in servizio.',
+  'Monitorización del rendimiento de carteras solares, detección de bajo rendimiento y revisión técnica del diseño de la planta, con experiencia práctica en construcción y puesta en marcha.')
+t('Applied artificial intelligence for energy', 'Εφαρμοσμένη τεχνητή νοημοσύνη για την ενέργεια', 'Intelligenza artificiale applicata all\'energia', 'Inteligencia artificial aplicada a la energía')
+t('Development and independent review of machine learning models for energy applications, including data pipelines, validation and production deployment.',
+  'Ανάπτυξη και ανεξάρτητος έλεγχος μοντέλων μηχανικής μάθησης για ενεργειακές εφαρμογές, συμπεριλαμβανομένων ροών δεδομένων, επικύρωσης και παραγωγικής εγκατάστασης.',
+  'Sviluppo e revisione indipendente di modelli di machine learning per applicazioni energetiche, incluse pipeline di dati, validazione e messa in produzione.',
+  'Desarrollo y revisión independiente de modelos de aprendizaje automático para aplicaciones energéticas, incluidos pipelines de datos, validación y despliegue en producción.')
+t("Short courses for engineering teams on forecasting, optimization and machine learning for energy, tailored to the participants' own problems.",
+  'Σύντομα μαθήματα για ομάδες μηχανικών σε πρόβλεψη, βελτιστοποίηση και μηχανική μάθηση για την ενέργεια, προσαρμοσμένα στα προβλήματα των συμμετεχόντων.',
+  'Corsi brevi per team di ingegneri su previsione, ottimizzazione e machine learning per l\'energia, su misura per i problemi dei partecipanti.',
+  'Cursos breves para equipos de ingeniería sobre predicción, optimización y aprendizaje automático para la energía, adaptados a los problemas de los participantes.')
+t('I teach two master-level courses at Politecnico di Milano and supervise theses on forecasting and energy management.',
+  'Διδάσκω δύο μεταπτυχιακά μαθήματα στο Politecnico di Milano και επιβλέπω διπλωματικές εργασίες πάνω στην πρόβλεψη και τη διαχείριση ενέργειας.',
+  'Insegno in due corsi magistrali al Politecnico di Milano e seguo tesi su previsione e gestione dell\'energia.',
+  'Imparto dos asignaturas de máster en el Politecnico di Milano y dirijo trabajos de fin de máster sobre predicción y gestión de energía.')
+t('Since 2025. Lectures, course material and exercise sessions on circuit theory.',
+  'Από το 2025. Διαλέξεις, εκπαιδευτικό υλικό και ασκήσεις στη θεωρία κυκλωμάτων.',
+  'Dal 2025. Lezioni, materiale didattico ed esercitazioni di teoria dei circuiti.',
+  'Desde 2025. Clases, material docente y sesiones de ejercicios de teoría de circuitos.')
+t('Since 2025. Lectures and exercise sessions on power electronics, converters and electrical machines.',
+  'Από το 2025. Διαλέξεις και ασκήσεις σε ηλεκτρονικά ισχύος, μετατροπείς και ηλεκτρικές μηχανές.',
+  'Dal 2025. Lezioni ed esercitazioni di elettronica di potenza, convertitori e macchine elettriche.',
+  'Desde 2025. Clases y sesiones de ejercicios de electrónica de potencia, convertidores y máquinas eléctricas.')
+t("I tutor seminars on artificial intelligence for power systems and supervise master's theses on forecasting and energy management.",
+  'Είμαι tutor σε σεμινάρια τεχνητής νοημοσύνης για συστήματα ηλεκτρικής ενέργειας και επιβλέπω διπλωματικές εργασίες πάνω στην πρόβλεψη και τη διαχείριση ενέργειας.',
+  'Seguo seminari di intelligenza artificiale per i sistemi elettrici e supervisiono tesi magistrali su previsione e gestione dell\'energia.',
+  'Tutorizo seminarios de inteligencia artificial para sistemas eléctricos y dirijo trabajos de fin de máster sobre predicción y gestión de energía.')
+t('If you are a Politecnico di Milano student interested in a thesis on forecasting, optimization or energy management, write to me.',
+  'Αν είστε φοιτητής του Politecnico di Milano και σας ενδιαφέρει διπλωματική σε πρόβλεψη, βελτιστοποίηση ή διαχείριση ενέργειας, γράψτε μου.',
+  'Se sei uno studente del Politecnico di Milano interessato a una tesi su previsione, ottimizzazione o gestione dell\'energia, scrivimi.',
+  'Si eres estudiante del Politecnico di Milano y te interesa un TFM sobre predicción, optimización o gestión de energía, escríbeme.')
+t('Researcher on national and European funded projects on sustainable mobility, smart islands and energy technologies. Lead engineer for research and development in the forecasting division of DomOpti, a Politecnico di Milano spin-off.',
+  'Ερευνητής σε εθνικά και ευρωπαϊκά χρηματοδοτούμενα έργα για τη βιώσιμη κινητικότητα, τα έξυπνα νησιά και τις ενεργειακές τεχνολογίες. Επικεφαλής μηχανικός έρευνας και ανάπτυξης στο τμήμα προβλέψεων της DomOpti, spin-off του Politecnico di Milano.',
+  'Ricercatore su progetti finanziati nazionali ed europei su mobilità sostenibile, isole intelligenti e tecnologie energetiche. Ingegnere responsabile di ricerca e sviluppo nella divisione previsioni di DomOpti, spin-off del Politecnico di Milano.',
+  'Investigador en proyectos financiados nacionales y europeos sobre movilidad sostenible, islas inteligentes y tecnologías energéticas. Ingeniero responsable de investigación y desarrollo en la división de predicción de DomOpti, spin-off del Politecnico di Milano.')
+t('Collaborative research on optimization and machine learning for decision-making in power systems.',
+  'Συνεργατική έρευνα σε βελτιστοποίηση και μηχανική μάθηση για τη λήψη αποφάσεων σε συστήματα ηλεκτρικής ενέργειας.',
+  'Ricerca collaborativa su ottimizzazione e machine learning per il processo decisionale nei sistemi elettrici.',
+  'Investigación colaborativa en optimización y aprendizaje automático para la toma de decisiones en sistemas eléctricos.')
+t("Lecturer on the master courses Electric Conversion from Green Sources of Energy and Fundamental Theory of Electric and Magnetic Circuits. Tutor on artificial intelligence for power systems; master's thesis supervisor.",
+  'Διδάσκων στα μεταπτυχιακά μαθήματα Electric Conversion from Green Sources of Energy και Fundamental Theory of Electric and Magnetic Circuits. Tutor σε τεχνητή νοημοσύνη για συστήματα ηλεκτρικής ενέργειας· επιβλέπων διπλωματικών εργασιών.',
+  'Docente nei corsi magistrali Electric Conversion from Green Sources of Energy e Fundamental Theory of Electric and Magnetic Circuits. Tutor di intelligenza artificiale per i sistemi elettrici; relatore di tesi magistrali.',
+  'Profesor en las asignaturas de máster Electric Conversion from Green Sources of Energy y Fundamental Theory of Electric and Magnetic Circuits. Tutor de inteligencia artificial para sistemas eléctricos; director de trabajos de fin de máster.')
+t('Thesis: Advanced Photovoltaic and Load Power Forecasting Methods for Optimal Microgrid Scheduling. Forecasting and optimization methods for microgrid scheduling, validated on a laboratory microgrid. Supervisors: Sonia Leva and Marco Mussetta. Defense expected November 2026.',
+  'Διατριβή: Advanced Photovoltaic and Load Power Forecasting Methods for Optimal Microgrid Scheduling. Μέθοδοι πρόβλεψης και βελτιστοποίησης για τον προγραμματισμό μικροδικτύων, επικυρωμένες σε εργαστηριακό μικροδίκτυο. Επιβλέποντες: Sonia Leva και Marco Mussetta. Υποστήριξη αναμένεται Νοέμβριο 2026.',
+  'Tesi: Advanced Photovoltaic and Load Power Forecasting Methods for Optimal Microgrid Scheduling. Metodi di previsione e ottimizzazione per la programmazione di microreti, validati su una microrete di laboratorio. Relatori: Sonia Leva e Marco Mussetta. Discussione prevista a novembre 2026.',
+  'Tesis: Advanced Photovoltaic and Load Power Forecasting Methods for Optimal Microgrid Scheduling. Métodos de predicción y optimización para la programación de microrredes, validados en una microrred de laboratorio. Directores: Sonia Leva y Marco Mussetta. Defensa prevista en noviembre de 2026.')
+t('Milan · Politecnico di Milano', 'Μιλάνο · Politecnico di Milano', 'Milano · Politecnico di Milano', 'Milán · Politecnico di Milano')
+t('PhD, Politecnico di Milano', 'Διδακτορικό, Politecnico di Milano', 'Dottorato, Politecnico di Milano', 'Doctorado, Politecnico di Milano')
+t('Research projects, software and applied work.', 'Ερευνητικά έργα, λογισμικό και εφαρμοσμένη δουλειά.', 'Progetti di ricerca, software e lavoro applicato.', 'Proyectos de investigación, software y trabajo aplicado.')
+
 here = os.path.dirname(os.path.abspath(__file__))
 for i, code in enumerate(['el', 'it', 'es'], start=1):
     json.dump({row[0]: row[i] for row in T}, open(os.path.join(here, code + '.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
